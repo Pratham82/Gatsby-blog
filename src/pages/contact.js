@@ -1,9 +1,11 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 const Contact = () => (
   <Layout>
+    <Head title="Contact" />
     <h1>Contact</h1>
     <p>Connect wieth me on follwing links: </p>
     <a href="https://linkedin.com/prathameshmali" target="_">
