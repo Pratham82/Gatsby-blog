@@ -1,5 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
+import footerStyles from "./footer.module.scss"
 
 const Footer = () => {
   const author = useStaticQuery(graphql`
@@ -12,7 +13,7 @@ const Footer = () => {
     }
   `)
   return (
-    <footer style={{ textAlign: "center" }}>
+    <footer className={footerStyles.footer}>
       <p>
         Created with{" "}
         <span role="img" aria-label="heart">
