@@ -49,7 +49,7 @@ const Header = () => {
             className={headerStyles.navItem}
             activeClassName={headerStyles.activeNavItem}
           >
-            Conatct
+            Contact
           </Link>{" "}
         </li>
         <li>
